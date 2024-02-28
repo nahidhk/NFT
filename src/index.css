@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.fancy {
+  font-family: "Fugaz One", sans-serif;
+}
+
+.card-bg-color {
+  background-color: rgba(0, 25, 34, 1);
+}
+
+.gradient-background {
+  background-image: linear-gradient(
+    90deg,
+    #01f89e 0%,
+    #0ae2bf 30.73%,
+    #0fd9d4 66.15%,
+    #13cdeb 100%
+  );
+}
+
+.green-gradient-background {
+  background-image: #00392a;
+}
+
+.border-color-v1 {
+  /* border: 3px solid; */
+
+  border-color: linear-gradient(
+    180deg,
+    #02ffa9 0%,
+    #0cdec8 51.87%,
+    #12cfe7 100%
+  );
+}
+ 
+
+.border-color-v2 {
+  border: 2px solid rgba(14, 95, 121, 1);
+}
+
+.backdrop-color {
+  background: rgba(1, 247, 158, 1);
+}
+.text-color-v1 {
+  color: rgba(1, 247, 158, 1);
+}
+
+.text-color-v2 {
+  background: linear-gradient(
+    90deg,
+    rgba(3, 244, 165, 0.56) 0%,
+    rgba(17, 209, 226, 0.52) 100%
+  );
+}
+
+.text-color {
+  color: rgba(201, 201, 201, 1);
+}
+
+.bg {
+  background: linear-gradient(
+    90deg,
+    #01f89e 0%,
+    #0ae2bf 30.73%,
+    #0fd9d4 66.15%,
+    #13cdeb 100%
+  );
+}
