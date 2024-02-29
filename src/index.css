@@ -6,6 +6,12 @@
 
 /* styles.css */
 
+@layer components {
+  .text-color-v3 {
+    @apply bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text;
+  }
+}
+
 * {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -43,7 +49,6 @@
     #12cfe7 100%
   );
 }
- 
 
 .border-color-v2 {
   border: 2px solid rgba(14, 95, 121, 1);
@@ -57,7 +62,7 @@
 }
 
 .text-color-v2 {
-  background: linear-gradient(
+  color: linear-gradient(
     90deg,
     rgba(3, 244, 165, 0.56) 0%,
     rgba(17, 209, 226, 0.52) 100%
