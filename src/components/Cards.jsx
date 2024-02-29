@@ -9,8 +9,8 @@ export default function Card() {
   return (
     <>
       <main className=" container mx-auto  pt-10  px-8 lg:px-20">
-        <div className="text-color flex flex-col justify-between items-center gap-10 lg:flex-row lg:items-start">
-          <div className=" border-2 border-cyan-700 md:min-w-[400px] min-w-[300px] w-full flex-1 mt-8 p-8 order-2 shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 ">
+        <div className="text-color flex flex-col justify-between items-center gap-10  lg:items-start">
+          <div className=" border-2 border-cyan-700 md:min-w-[400px] lg:min-w-max min-w-[300px] w-full flex-1 mt-8 p-8 order-2 shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 ">
             <div className="   mb-7 pb-7 flex items-center justify-center">
               <img src={image2} alt="" className="rounded-3xl w-20 h-20" />
             </div>

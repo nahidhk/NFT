@@ -1,6 +1,6 @@
 import { BiLogoFacebook, BiLogoInstagram, BiLogoTwitter } from "react-icons/bi";
 const Footer = () => (
-  <div className=" mt-20 lg:my-20 container flex flex-col md:flex-row
+  <div className=" mt-20 my-20 container flex flex-col md:flex-row
    items-start  justify-between space-y-20 md:space-y-0">
     {/* left */}
     <div className=" md:min-w-[500px] space-y-2">
