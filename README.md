@@ -1,3 +1,3 @@
-# ZenUI Library Template
+# Welcome to ZenUI free templates organization
 
-- visit our website to get more components and templates http://zenui-library.com
+Have a nice day with ZenUI Library. visit our website https://zenui.net to get more components & templates.
