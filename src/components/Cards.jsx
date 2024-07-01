@@ -12,7 +12,7 @@ export default function Card() {
         <div className="text-color flex flex-col justify-between items-center gap-10  lg:items-start">
           <div className=" border-2 border-cyan-700 md:min-w-[400px] lg:min-w-max min-w-[300px] w-full flex-1 mt-8 p-8 order-2 shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 ">
             <div className="   mb-7 pb-7 flex items-center justify-center">
-              <img src={image2} alt="" className="rounded-3xl w-20 h-20" />
+              <img src={image1} alt="" className="rounded-3xl w-20 h-20" />
             </div>
             <div className="  space-y-2 md:space-y-3 mb-10 md:mb-16 flex flex-col place-content-center place-items-center">
               <h1 className=" text-[30px] md:text-[38px] lg:text-[45px]">Bitcoin</h1>
@@ -29,11 +29,11 @@ export default function Card() {
           </div>
           <div className="border-4  border-s-cyan-300 border-emerald-500 md:min-w-[400px] min-w-[300px] w-full flex-1 p-8 order-1 shadow-xl rounded-3xl   border-color-v1 green-gradient-background  sm:w-96 lg:w-full lg:order-2 lg:mt-0">
             <div className="mb-8 pb-8 flex items-center justify-center">
-              <img src={image1} alt="" className="rounded-3xl w-20 h-20" />
+              <img src={image3} alt="" className="rounded-3xl w-20 h-20" />
             </div>
             <div className=" space-y-4 md:space-y-3 mb-10 md:mb-16 flex flex-col place-content-center place-items-center">
               <h1 className=" text-[30px] md:text-[38px] lg:text-[45px]">Ethereum</h1>
-              <h1 className=" text-[30px] md:text-[38px] lg:text-[45px] dollar">2.544,32 USD</h1>
+              <h1 className=" text-[30px] md:text-[38px] lg:text-[45px] dollar">3,246 USD</h1>
               <img src={image5} alt="" />
             </div>
 
@@ -46,7 +46,7 @@ export default function Card() {
           </div>
           <div className=" border-2 border-cyan-700 md:min-w-[400px] min-w-[300px] w-full flex-1 mt-8 p-8 order-3 shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-3  ">
             <div className="mb-7 pb-7 flex items-center  justify-center">
-              <img src={image3} alt="" className="rounded-3xl w-20 h-20" />
+              <img src={image2} alt="Ripple" className="rounded-3xl w-20 h-20" />
             </div>
             <div className="  space-y-4 md:space-y-3 mb-10 md:mb-16 flex flex-col place-content-center place-items-center">
               <h1 className=" text-[30px] md:text-[38px] lg:text-[45px]">Ripple</h1>
